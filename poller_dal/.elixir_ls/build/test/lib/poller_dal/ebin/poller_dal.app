@@ -1,0 +1,11 @@
+{application,poller_dal,
+             [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto_sql]},
+              {description,"poller_dal"},
+              {modules,['Elixir.PollerDal','Elixir.PollerDal.Districts',
+                        'Elixir.PollerDal.Districts.District',
+                        'Elixir.PollerDal.Questions',
+                        'Elixir.PollerDal.Questions.Question',
+                        'Elixir.PollerDal.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PollerDal',[]}}]}.
